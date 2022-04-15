@@ -1,4 +1,4 @@
-# Real Sus
+# GitSus
 
-I am a little sus
+Is a thing which were you are sus also you're a sussy baka.
 
