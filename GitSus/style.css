@@ -1,0 +1,51 @@
+:root {
+    background-color: rgb(255, 255, 255);
+    
+}
+.body {
+    margin: 0;
+}
+.nav{
+    background-color: rgb(83, 171, 230);
+    display: flex;
+    flex-wrap: ;
+    width: 59%;
+    justify-content: center;
+    justify-items: center;
+}
+.nav-item {
+    background-color: blueviolet;
+    font-size: large;
+    margin: 1rem 0.5rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: bold;
+    -o-transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0,0,1,.04);
+}
+.nav-item:hover {
+    background-color: brown;
+    color: aliceblue;
+}
+.article {
+    margin: 0 2rem;
+    margin-bottom: 1.5;
+    column-width: 200px;
+}
+.h1, .h2 {
+    column-span: all;
+    text-transform: capitalize;
+    font-weight: normal;
+    text-shadow: 0 1px 3px;
+}
+.p {
+    font-size: larger;
+}
+.p::first-letter {
+    font-size: xx-large;
+    color: black;
+}
