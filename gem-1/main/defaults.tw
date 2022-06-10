@@ -1,0 +1,14 @@
+:: Variables
+<<<<silently>>
+    <<set $player = {
+        name: "Alvin",
+        power: 100,
+        imagination: {
+            level: 0
+        },
+        earth: {
+            level:0
+        }
+    }>>
+    <<set $player.power += 10>> 
+<</silently>>>>

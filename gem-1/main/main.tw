@@ -1,0 +1,42 @@
+:: StoryData
+{
+    "ifid": "5A502607-5009-434B-BF81-110BAD937292",
+    "format": "SugarCube",
+    "format-version": "2.36.1",
+    "start": "Test"
+}
+
+:: StoryTitle
+Smol-Game
+
+:: StoryMenu
+[[Stats]]
+
+:: Stats
+<<include Variables>>
+!!Player Stats
+''Name'': <<= $player.name>>
+''Power'':<<= $player.power>>
+''Imagination'':<<= $player.imagination.level>>
+
+:: Test
+Welcome to a world of imagination!
+
+[[Imagine of bad things. | Next-1]]
+[[Imagine of great things.| Next-2]]
+
+:: Next-1
+!!Imagine of bad things.
+As you imagine of bad things the monsters that you have created in your own imagination come for you.
+[[After]]
+you find a place to hide...
+
+:: Next-2
+!!Imagine of great things.
+You gain power to your fullest.
+[[After]]
+<<include Variables>>
+<<silently>>
+<<set $player.imagination.level++>>
+<</silently>>
+

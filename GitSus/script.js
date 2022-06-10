@@ -20,7 +20,7 @@ b.innerHTML += Math.PI
 const h1 = b.querySelector(`h1`);
 h1.style= `background-color: lightgreen`;
 const outs = b.querySelectorAll(`output`)
-for(const out of outs) {
+for(const out of outs) 
     if(!out.innerHTML.includes(`Infinity`)){
     out.innerHTML += `cm`;
  }
