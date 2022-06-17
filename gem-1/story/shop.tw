@@ -1,0 +1,12 @@
+:: Shop
+Welcome to Starnge Store 
+
+[[Bow - costs: 40 imagination | Shop][$player.imagination to $player.imagination - 10]
+[$player.inventory.pus({
+    name: "Bow"
+    cost: 10,
+    ability: "Arrows"
+})]]
+[Back to Town | Town]
+
+[img[Shop|media/location/shop.jpg]]

@@ -1,0 +1,14 @@
+:: Home
+[img[House|media/location/home.jpg]]
+You wake up more powerful than ever.
+
+[[Train Imagination | Train Imagination]]
+[[Train Arrows | Train Arrows]]
+[[Go to Town | Town]]
+
+:: Train Imagination
+<<set $player.imagination.level to $player.imagination.level + 5>>
+[[Back to Home | Home]]
+::Train Arrows
+<<set $player.arrows.level to $player.arrows.level + 5>>
+[[Back to Home | Home]]

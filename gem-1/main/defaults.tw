@@ -1,12 +1,13 @@
 :: Variables
 <<<<silently>>
     <<set $player = {
+        inventory:[],
         name: "Alvin",
         power: 100,
         imagination: {
             level: 0
         },
-        earth: {
+         arrows: {
             level:0
         }
     }>>

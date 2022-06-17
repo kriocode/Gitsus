@@ -3,7 +3,7 @@
     "ifid": "5A502607-5009-434B-BF81-110BAD937292",
     "format": "SugarCube",
     "format-version": "2.36.1",
-    "start": "Test"
+    "start": "Start"
 }
 
 :: StoryTitle
@@ -13,11 +13,17 @@ Smol-Game
 [[Stats]]
 
 :: Stats
-<<include Variables>>
 !!Player Stats
 ''Name'': <<= $player.name>>
 ''Power'':<<= $player.power>>
 ''Imagination'':<<= $player.imagination.level>>
+''Arrows'':<<= $player.arrows.level>>
+
+::Start
+<<include Variables>>
+One day you woke up in a world of imagination.
+[[You woke up in your house | Home]]
+
 
 :: Test
 Welcome to a world of imagination!
@@ -34,9 +40,11 @@ you find a place to hide...
 :: Next-2
 !!Imagine of great things.
 You gain power to your fullest.
+
 [[After]]
 <<include Variables>>
 <<silently>>
 <<set $player.imagination.level++>>
+<<set $player.arrows.level++>>
 <</silently>>
 
